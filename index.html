@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utl-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Google Home Page</title>
 </head>
@@ -10,32 +11,35 @@
 	<header>
 		<nav>
 			<ul>
-				<li>Gmail</li>
-				<li>Images</li>
-				<li>petits carres</li>
-				<li>logo_notifications</li>
-				<li>photo connexion</li>
+				<li class="menu"><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+				<li class="menu"><a href="https://www.google.co.id/imghp?hl=fr&tab=wi">Images</a></li>
+				<li class="menu"><a href="https://www.google.co.id/intl/fr/options/"></a></li>
+				<li class="menu"><img src="carres.png"></li>
+				<li class="menu"><img src="compte.png"></li>
 			</ul>
 		</nav>
 	</header>
 
 	<section>
-		<img src="xxx.com" alt="logo Google" id="logo"/>
+		<img src="https://www.google.fr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo Google" id="logo"/>
 
-		<div class="barrerecherche"><!--logo micro--></div>
+		<div class="Barre">
+			<input type="text" name="Rechercher" maxlength="2048" autocomplete="off">
+			<img src="micro.png">
+			</input> </div>
 
 		<ul class="boutons">
-			<li>Rechercher Goolge</li>
-			<li>J'ai de la chance</li>
+			<li class="Gogole">Rechercher Gogole</li>
+			<li class="Gogole">J'ai de la chance</li>
 		</ul>
 
 		<div class="langues">
 			<p>Google disponible en : </p>
-			<ul>
-				<li>English</li>
-				<li>Indonesia</li>
-				<li>Basa Jawa</li>
-				<li>Ch'timi</li>
+			<ul class="lg">
+				<li class="lgs">English</li>
+				<li class="lgs">Indonesia</li>
+				<li class="lgs">Basa Jawa</li>
+				<li class="lgs">Ch'timi</li>
 			</ul>
 		</div>
 	</section>
@@ -46,15 +50,15 @@
 
 		<div class="The_End">
 			<ul>
-				<li>Publicite</li>
-				<li>Entreprise</li>
-				<li>A Propos</li>
+				<li class="pub">Publicite</li>
+				<li class="lgs">Entreprise</li>
+				<li class="lgs">A Propos</li>
 			</ul>
 
 			<ul>
-				<li>Confidentialite</li>
-				<li>Conditions</li>
-				<li>Parametres</li>
+				<li class="lgs">Confidentialite</li>
+				<li class="lgs">Conditions</li>
+				<li class="lgs">Parametres</li>
 			</ul>
 		</div>
 	</footer>
